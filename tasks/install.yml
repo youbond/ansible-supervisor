@@ -1,5 +1,5 @@
 ---
-- pip: name=supervisor
+- pip: name=supervisor executable=pip2
 
 - group: name={{supervisor_user_group}} state=present
 
